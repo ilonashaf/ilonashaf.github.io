@@ -10,51 +10,51 @@
 
   <title>Frontend Mentor | Results summary component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
+  <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-  <table>
-    <td>
-      Your Result
-      76
-      of 100
+  <div class="container">
+    <div class="your-result">
+      <h2>Your Result</h2>
+      <div class="circle-result">
+        <span class="result-score">76</span>
+        <span class="of-100">of 100</span>
+      </div>
+      <div class="your-result-text-under-circle">
+        <h1>Great</h1>
+        <p>You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+    </div>
+    <div class="results-summary-component-main">
+      <h2> Summary </h2>
+      <div class="box-param" id="red">
+        <img src="/results-summary-component-main/assets/images/icon-reaction.svg">
+        <span class="label"> Reaction </span>
+        <div class="score"> 80 <span class="grey-text">/ 100 </span></div>
+      </div>
+      <div class="box-param" id="orange">
+        <img src="/results-summary-component-main/assets/images/icon-memory.svg">
+        <span class="label"> Memory</span>
+        <div class="score"> 92 <span class="grey-text">/ 100 </span> </div>
+      </div>
+      <div class="box-param" id="green">
+        <img src="/results-summary-component-main/assets/images/icon-verbal.svg">
+        <span class="label"> Verbal</span>
+        <div class="score"> 61 <span class="grey-text">/ 100 </span> </div>
+      </div>
+      <div class="box-param" id=blue>
+        <img src="/results-summary-component-main/assets/images/icon-visual.svg">
+        <span class="label">Visual</span>
+        <div class="score"> 72 <span class="grey-text">/ 100 </span></div>
+      </div>
+      <div class="continue-btn">
+        Continue
+      </div>
 
-      Great
-      You scored higher than 65% of the people who have taken these tests.
-    </td>
-    <td>
-      Summary
-
-      Reaction
-      80 / 100
-
-      Memory
-      92 / 100
-
-      Verbal
-      61 / 100
-
-      Visual
-      72 / 100
-
-      Continue
-    </td>
-  </table>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
+    </div>
   </div>
 </body>
+</div>
 
 </html>
